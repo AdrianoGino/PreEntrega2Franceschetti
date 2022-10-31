@@ -1,0 +1,590 @@
+* {margin: 0;
+padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.navbar {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 80px;
+    height: 80px;
+    grid-column: 2/3;
+}
+
+.menu {
+    grid-column: 4/7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.liinicio { list-style: none;}
+
+.liinicio a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    
+
+
+}
+
+.liinicio a:hover {
+    transition: all 0s;
+    color:yellow
+}
+
+.maininicio {
+    height: 80vh;
+   background-image: linear-gradient(rgba(16,16,16,.8),rgba(16,16,16,.9)),  url(fondo3.png); 
+  background-size: cover;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+grid-template-rows: repeat(8,1fr);  
+}
+
+.divini {
+    grid-column: 6/9;
+    grid-row: 2/6;
+    color: white;
+}
+ h1 {
+    font-size: 2em;
+    color: yellow;
+    
+ }
+
+ h1:hover {
+    transition: all 2s;
+    color: white;
+ }
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+
+}
+
+
+p:hover {
+    transition: all 2s;
+    color: yellow;
+}
+
+
+
+h4 {
+    font-size: 2em;
+    color: yellow;
+}
+
+h4:hover {
+    transition: all 2s;
+    color: white;
+}
+
+.footerinicio { display: grid;
+height: 80px;
+align-items: center;
+background-color: black;
+color: white;
+grid-template-areas: 'contactenos iconos-redes';
+
+}
+
+.contactenos {
+    grid-template-areas: contactenos;
+    display: flex;
+    justify-content: flex-start;
+    padding: 9px;
+    font-family: 'Inter', sans-serif;
+}
+
+.contactenos:hover {
+    transition: all 0s;
+    color:  yellow;
+}
+
+.iconos-redes {
+    grid-template-areas: iconos-redes;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 193px;
+    
+    
+}
+
+/*hisotria*/
+
+.navbar2 {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+}
+
+.navbar2 .logo2 {
+    width: 80px;
+    height: 80px;
+    grid-column: 2/3;
+}
+
+.menu2 {
+    grid-column: 4/7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lihis { list-style: none;}
+
+.lihis a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.lihis a:hover {
+    transition: all 0s;
+    color:yellow
+}
+
+.mainhis {
+    height: 80vh; 
+    background-image: linear-gradient(rgba(16,16,16,.8),rgba(16,16,16,.9)),  url(fonedi.png); 
+    background-size: cover;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    
+   
+}  
+
+.divhis {
+    
+    color: white; }
+   
+
+    h1 {
+        
+        color: yellow;
+        
+     }
+    
+     h1:hover {
+        transition: all 2s;
+        color: white;
+     }
+    .parrafo {
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+    }
+    
+    
+    .parrafo:hover {
+        transition: all 2s;
+        color: yellow;
+    }
+    
+    
+    .footerhis { display: grid;
+        height: 80px;
+        align-items: center;
+        background-color: black;
+        color: white;
+        grid-template-areas: 'contactenos iconos-redes';
+        
+        }
+    
+    .contactenos2 {
+        grid-template-areas: contactenos;
+        display: flex;
+        justify-content: flex-start;
+        padding: 9px;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .contactenos2:hover {
+        transition: all 0s;
+        color:  yellow;
+    }
+    
+    .iconos-redes {
+        grid-template-areas: iconos-redes;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 193px;
+    }
+
+
+
+
+    /*NOSOTROS*/
+
+    .navbar3 {
+        background-color: black;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        align-items: center;
+    }
+    
+    .navbar3 .logo3 {
+        width: 80px;
+        height: 80px;
+        grid-column: 2/3;
+    }
+    
+    .menu3 {
+        grid-column: 4/7;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .linos { list-style: none;}
+    
+    .linos a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .linos a:hover {
+        transition: all 0s;
+        color:yellow
+    }
+
+
+    .mainnos {
+        height: 80vh; 
+        background-image: linear-gradient(rgba(16,16,16,.8),rgba(16,16,16,.9)),  url(fondonos.png); 
+        background-size: cover;
+        max-width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        
+       
+    }  
+    
+    .divnos {
+        
+        color: white; }
+       
+    
+        .h1N {
+            
+            color: yellow;
+            
+         }
+        
+         .h1N:hover {
+            transition: all 2s;
+            color: white;
+         }
+        .pnos {
+            font-family: Arial, Helvetica, sans-serif;
+            
+            
+        }
+        
+        
+        .pnos:hover {
+            transition: all 2s;
+            color: yellow;
+        }
+        
+        .footernos { display: grid;
+            height: 80px;
+            align-items: center;
+            background-color: black;
+            color: white;
+            grid-template-areas: 'contactenos iconos-redes';
+            
+            }
+        
+        .contactenos3 {
+            grid-template-areas: contactenos;
+            display: flex;
+            justify-content: flex-start;
+            padding: 9px;
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .contactenos3:hover {
+            transition: all 0s;
+            color:  yellow;
+        }
+        
+        .iconos-redes {
+            grid-template-areas: iconos-redes;
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 193px;
+        }
+    
+ 
+        .navbar4 {
+            background-color: black;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            align-items: center;
+        }
+        
+        .navbar4 .logo4 {
+            width: 80px;
+            height: 80px;
+            grid-column: 2/3;
+        }
+        
+        .menu4 {
+            grid-column: 4/7;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .licon { list-style: none;}
+        
+        .licon a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .licon a:hover {
+            transition: all 0s;
+            color:yellow
+        }
+    
+
+        .maincon {
+            height: 80vh;
+           background-image: linear-gradient(rgba(16,16,16,.8),rgba(16,16,16,.9)),  url(fondo3.png); 
+          background-size: cover;
+          max-width: 100%;
+          
+        }
+
+        .instagram {
+            display: inline-block;
+            position: relative;
+            right: -20px; 
+        }
+
+        .instagram:hover {
+            transform: scale(2);
+        }
+        .whatsapp {
+            display: inline-block;
+            position: relative;
+            top: 175px;
+            right: 175px;
+            
+}
+
+        .whatsapp:hover {
+            transform: scale(2);
+        }
+
+        .facebook {
+            display: inline-block;
+            position: relative;
+            top: 350px;
+            right: 60px;
+           
+    }
+
+         .facebook:hover {
+            transform: scale(2);
+         }
+        
+       
+             .pcon1 {
+                display: inline-block;
+                position: relative;
+                left: 300px;
+                bottom: 50px;
+                color: white;
+            }
+        
+            .pcon2 {
+                display: inline-block;
+                position: relative;
+                left: 99px;
+                top: 100px;
+                color: white;
+            }
+             
+
+            .pcon3 {
+                display: inline-block;
+                position: relative;
+                left: -70px;
+                top: 280px;
+                color: white;
+            }
+            
+
+            .pcon1:hover {
+                transition: all 0s;
+                color: yellow;
+            }
+
+            .pcon2:hover {
+                transition: all 0s;
+                color: yellow;
+            }
+
+            .pcon3:hover {
+                transition: all 0s;
+                color: yellow;
+            }
+
+            .footercon { display: grid;
+                height: 80px;
+                align-items: center;
+                background-color: black;
+                color: white;
+                grid-template-areas: 'contactenos iconos-redes';
+                
+                }
+            
+            .contactenos4 {
+                grid-template-areas: contactenos;
+                display: flex;
+                justify-content: flex-start;
+                padding: 9px;
+                font-family: 'Inter', sans-serif;
+            }
+            
+            .contactenos4:hover {
+                transition: all 0s;
+                color:  yellow;
+            }    
+
+          
+
+
+      
+
+
+
+
+
+    
+
+
+
+@media only screen and (max-width: 500px) {
+   .navbar {
+    position: relative;
+    background-color: black;
+   }
+   .navbar .menu { display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    }
+
+    .maininicio .divini{
+        grid-column: 1/9;
+        grid-row: 3/7;
+    }
+
+.iconos-redes { 
+    padding: 10%;
+  padding-left: 02px;
+
+color: white  } 
+
+
+.navbar2 {
+    position: relative;
+    background-color: black;
+   }
+   .navbar2 .menu2 { display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    }
+
+    .mainhis {
+        height: 100vh;
+    }
+    
+    .navbar3 {
+        position: relative;
+        background-color: black;
+       }
+       .navbar3 .menu3 { display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        }
+        
+        .mainnos {
+            height: 100vh;
+        }   
+    
+        .navbar4 {
+            position: relative;
+            background-color: black;
+           }
+           .navbar4 .menu4 { display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            }
+            
+            .maincon {
+                height: 100vh;
+            }   
+
+            .pcon1 {
+                display: inline-block;
+                position: relative;
+                left: 100px;
+                bottom: 100px;
+                color: white;
+            }
+
+            .instagram {
+                display: inline-block;
+                position: relative;
+                left: 142px;
+                top: 20px;
+                bottom: 450px;
+                font-size: 150px; }
+
+        
+            .pcon2 {
+                display: inline-block;
+                position: relative;
+                left: -80px;
+                top: 50px;
+                color: white;
+            }
+
+            .whatsapp {
+                display: inline-block;
+                position: relative;
+                left: -50px;
+                bottom: 100px;
+            }
+
+            .pcon3 {
+                display: inline-block;
+                position: relative;
+                left: 120px;
+               
+            color: white;
+            }
+
+            .facebook {
+                display: inline-block;
+                position: relative;
+                top: 300px;
+                left: 50px;
+               
+            }
+
+}
