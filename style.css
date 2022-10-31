@@ -496,7 +496,7 @@ grid-template-areas: 'contactenos iconos-redes';
     
     .licat a:hover {
         transition: all 0s;
-        color:yellow
+        color:yellow;
     }
 
 
