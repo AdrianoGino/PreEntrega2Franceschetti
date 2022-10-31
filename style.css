@@ -465,7 +465,40 @@ grid-template-areas: 'contactenos iconos-redes';
                 color:  yellow;
             }    
 
-          
+     /*catalogo*/
+     
+     .navbar5 {
+        background-color: black;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        align-items: center;
+    }
+    
+    .navbar5 .logo5 {
+        width: 80px;
+        height: 80px;
+        grid-column: 2/3;
+    }
+    
+    .menu5 {
+        grid-column: 4/7;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .licat { list-style: none;}
+    
+    .licat a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .licat a:hover {
+        transition: all 0s;
+        color:yellow
+    }
+
 
 
       
