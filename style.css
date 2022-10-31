@@ -508,58 +508,41 @@ grid-template-areas: 'contactenos iconos-redes';
       
     }
 
-    .ParrafoTraje {
-        display: inline-block;
+    .ParrafoTraje { display: inline-block;
         position: relative;
-    bottom: 120px;
-    right: 365px;
+        bottom: 550px;
+        left: 250px;
     }
-
-    .traje02 {
-        display: inline-block;
+    .ParrafoTraje1 {display: inline-block;
         position: relative;
-        top: 240px;
-        left: -200px;
+        bottom: 800px;
+        right: 20px;
     }
 
     .ParrafoTraje2 {
         display: inline-block;
         position: relative;
-        left: -620px;
-    }
-    
-    .traje03 {
-        display: inline-block;
-        position: relative;
-        top: 500px;
-        right: 400px;
+        bottom: 600px;
+        right: 250px;
     }
 
     .ParrafoTraje3 {
         display: inline-block;
         position: relative;
-        right: 935px;
-        top: 400px;
+        bottom: 400px;
+        right: 420px;
     }
-
-    .traje04 {
-        display: inline-block;
-        position: relative;
-        top: 850px;
-        right: 600px;
-    }
-     
-    .ParrafoTraje4 {
-        display: inline-block;
-        position: relative;
-        top: 750px;
-        left: 450px;
-    }
-
-      
+    .divcat {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;}
+    
 
 
 
+
+    
+    
 
 
     
@@ -674,21 +657,3 @@ color: white  }
                 left: 50px;
                
             }
-
-            .navbar5 {
-                position: relative;
-                background-color: black;
-               }
-               .navbar5 .menu5 { display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                }
-                
-                .maincat {
-                    height: 100vh;
-                }   
-    
-
-
-
-}
