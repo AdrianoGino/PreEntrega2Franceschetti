@@ -119,6 +119,13 @@ grid-template-areas: 'contactenos iconos-redes';
     
 }
 
+
+
+
+
+
+
+
 /*hisotria*/
 
 .navbar2 {
@@ -224,6 +231,12 @@ grid-template-areas: 'contactenos iconos-redes';
 
 
 
+    
+    
+    
+    
+    
+    
     /*NOSOTROS*/
 
     .navbar3 {
@@ -327,6 +340,9 @@ grid-template-areas: 'contactenos iconos-redes';
         }
     
  
+        
+        /*contacto*/
+        
         .navbar4 {
             background-color: black;
             display: grid;
@@ -465,7 +481,14 @@ grid-template-areas: 'contactenos iconos-redes';
                 color:  yellow;
             }    
 
-     /*catalogo*/
+     
+     
+     
+     
+            
+            
+            
+            /*catalogo*/
      
      .navbar5 {
         background-color: black;
@@ -566,6 +589,48 @@ grid-template-areas: 'contactenos iconos-redes';
     justify-content: flex-start;
     padding-left: 193px;
 }
+
+
+
+
+
+
+/*Sucursales*/
+
+.navbar6 {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+}
+
+.navbar6 .logo6 {
+    width: 80px;
+    height: 80px;
+    grid-column: 2/3;
+}
+
+.menu6 {
+    grid-column: 4/7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lisucu { list-style: none;}
+
+.lisucu a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.lisucu a:hover {
+    transition: all 0s;
+    color:yellow;
+}
+
+
+
 
 
     
