@@ -662,6 +662,38 @@ grid-template-areas: 'contactenos iconos-redes';
     
 }
 
+.footerSucu { display: grid;
+    height: 80px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    grid-template-areas: 'contactenos iconos-redes';
+    
+    }
+
+.contactenos6 {
+    grid-template-areas: contactenos;
+    display: flex;
+    justify-content: flex-start;
+    padding: 9px;
+    font-family: 'Inter', sans-serif;
+}
+
+.contactenos6:hover {
+    transition: all 0s;
+    color:  yellow;
+}
+
+.iconos-redes {
+    grid-template-areas: iconos-redes;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 193px;
+}
+
+
+
+
     
     
 
