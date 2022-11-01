@@ -630,8 +630,37 @@ grid-template-areas: 'contactenos iconos-redes';
 }
 
 
+.mainsucu {
+    height: 80vh;
+   background-image: linear-gradient(rgba(16,16,16,.8),rgba(16,16,16,.9)),  url(fondo3.png); 
+  background-size: cover;
+  max-width: 100%; }
 
 
+  .psucu3 { display: inline-block;
+    position: relative;
+    left: 650px;
+    bottom: 450px;
+}
+
+.mapaSucu2 {
+    display: inline-block;
+    position: relative;
+    left: 850px;
+    bottom: 220px;
+}
+
+.psucu2 {
+    display: flex;
+    justify-content: center;
+}
+
+.mapaSucu1 {
+    display: inline-block;
+    position: relative;
+    left: 690px;
+    
+}
 
     
     
