@@ -500,7 +500,7 @@ grid-template-areas: 'contactenos iconos-redes';
     }
 
     .maincat {
-        height: 180vh;
+        height: 90vh;
        background-image: linear-gradient(rgba(16,16,16,.8),rgba(16,16,16,.9)),  url(fondo3.png); 
       background-size: cover;
       max-width: 100%;
@@ -508,37 +508,64 @@ grid-template-areas: 'contactenos iconos-redes';
       
     }
 
-    .ParrafoTraje { display: inline-block;
-        position: relative;
-        bottom: 550px;
-        left: 250px;
-    }
-    .ParrafoTraje1 {display: inline-block;
-        position: relative;
-        bottom: 800px;
-        right: 20px;
-    }
+    .h1traje { color: white;
+}
 
-    .ParrafoTraje2 {
-        display: inline-block;
-        position: relative;
-        bottom: 600px;
-        right: 250px;
-    }
+.h1traje:hover {
+    transition: all 0s;
+    color: yellow;
+} 
 
-    .ParrafoTraje3 {
-        display: inline-block;
-        position: relative;
-        bottom: 400px;
-        right: 420px;
-    }
-    .divcat {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;}
+.traje1:hover {
+    transform: scale(2);
+}
+
+.h2traje:hover {
+    transition: all 0s;
+    color: yellow;
+}
+
+.traje2:hover {
+    transform: scale(2);
+}
+
+.h3traje:hover {
+    transition: all 0s;
+    color: yellow;
+}
+
+.traje3:hover {
+    transform: scale(2);
+}
+  
+.footercat { display: grid;
+    height: 80px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    grid-template-areas: 'contactenos iconos-redes';
     
+    }
 
+.contactenos5 {
+    grid-template-areas: contactenos;
+    display: flex;
+    justify-content: flex-start;
+    padding: 9px;
+    font-family: 'Inter', sans-serif;
+}
 
+.contactenos5:hover {
+    transition: all 0s;
+    color:  yellow;
+}
+
+.iconos-redes {
+    grid-template-areas: iconos-redes;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 193px;
+}
 
 
     
